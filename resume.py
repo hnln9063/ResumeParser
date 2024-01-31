@@ -1,6 +1,6 @@
 import pdfplumber
 import google.generativeai as palm
-palm.configure(api_key='AIzaSyCbojY-5eF7BWptvgUs4zYvJH-M6zhCZ78')
+palm.configure(api_key='Your_API_KEY')
 
 def parse_resume(pdf_path):
     with pdfplumber.open(pdf_path) as pdf:
