@@ -5,16 +5,16 @@ The goal of this project is to develop a tool that parses a resume in PDF format
 
 **How to run the project?**<br>
 Open terminal and install the following dependencies
-  - `pip install pyresparser`
-  - `pip install pdfplumber`
+  -  `pip install pyresparser`
+  -  `pip install pdfplumber`
   -  `pip install spacy`
   -  `pip install spacy[en_core_web_sm]` or `python -m spacy download en_core_web_sm`
   -  `pip install -U google-generativeai`
 
 After successful installation, run the python script `python resume.py`
 
-**NOTE:**<br>
+**NOTE:**
 Ensure that you have a valid Google generative AI API key and configure it in the palm library.
 
-**Contributor**
+**Contributor**<br>
 - H N Lakshmi Narasimha | [GitHub](https://github.com/hnln9063) | [LinkedIn](https://www.linkedin.com/in/lakshmi-narasimha-hn/)
